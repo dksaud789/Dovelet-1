@@ -24,14 +24,20 @@
 
 *****
  */
-
+/*
 #include <stdio.h>
 
 void main(void)
 {
 	int a;
 	scanf("%d", &a);
-
+	while(a-->0) printf("*");
 
 	return;
+}
+*/
+main(a)
+{
+	scanf("%d", &a);
+	while(a--) printf("*");
 }
