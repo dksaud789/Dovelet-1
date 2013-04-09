@@ -34,9 +34,13 @@
 
 main()
 {
-	double a,b;
-	int c;
+	int a,b,c;
 	scanf("%d%d%d",&a,&b,&c);
-	printf("%.*f",c,a/b)
-
+	printf("0.");
+	while(c-->0)
+	{
+		a*=10;
+		printf("%d",a/b);
+		a%=b;
+	}
 }
