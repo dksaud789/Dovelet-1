@@ -39,5 +39,10 @@ Y 년 후의 최종 금액을 출력한다.
 
 main()
 {
-
+	double r,m;
+	int y;
+	scanf("%lf%lf%d",&r,&m,&y);
+	r=1+r*0.01;
+	while(y-->0)m*=r;
+	printf("%d",(int)m);
 }
